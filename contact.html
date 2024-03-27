@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <ul class="navbar">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./news.html">News</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="./about.html">About</a></li>
+    </ul>
+    <hr/>
+    <h1>Contact page</h1>
+    <hr/><br>
+    <form action="./index.html" method="GET">
+    <fieldset>
+        <legend>User Info</legend>
+        <label> First Name:
+            <input type="text" name="fname" />
+        </label><br/><br/>
+        <label> Last Name:
+            <input type="text" name="lname" />
+        </label><br/><br/>
+        <label> Pass Word:
+            <input type="password" name="password" />
+        </label><br/><br/>
+        <fieldset>
+        <legend>Course</legend>
+        <label>
+            <input type="radio" name="Course" value="html">HTML
+        </label>
+        <label>
+            <input type="radio" name="Course" value="css">CSS
+        </label>
+        <label>
+            <input type="radio" name="Course" value="js">Javascript
+        </label><br/><br/>
+    </fieldset>
+        <p>Framework</p>
+        <label>
+            <input type="radio" name="Framework" value="react">React
+        </label>
+        <label>
+            <input type="radio" name="Framework" value="Angular" disabled>Angular
+        </label><br/><br/>
+        <button type="submit">OK</button>
+        <button type="button">OK2</button>
+        <input type="submit" value="submit">  
+        <input type="reset" value="reset"><br><br>
+    </fieldset>
+    </form>
+</body>
+</html>
